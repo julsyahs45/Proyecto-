@@ -1,33 +1,123 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprendimiento de Postres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
 
-# Local configuration file (sdk path, etc)
-local.properties
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+}
 
-# Log/OS Files
-*.log
+header h1 {
+    margin: 0;
+}
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
 
-# Keystore files
-*.jks
-*.keystore
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+main {
+    padding: 20px;
+}
 
-# Android Profiling
-*.hprof
+section {
+    margin-bottom: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</style>
+<body>
+    <header>
+        <h1>Delicias Dulces</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bienvenidos a Delicias Dulces</h2>
+            <p>Disfruta de los mejores postres caseros hechos con amor.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un emprendimiento escolar dedicado a la elaboración de postres con ingredientes de la más alta calidad.</p>
+        </section>
+        <section id="products">
+            <h2>Productos</h2>
+            <div class="product">
+                <h3>Pay de Limón</h3>
+                <img src="pay de limon.jpg" alt="Pay de Limón">
+                <p>Exquisito pay de limón con una base crujiente y un relleno cremoso.</p>
+            </div>
+            <div class="product">
+                <h3>Pay de Queso</h3>
+                <img src="pay de queso.jpg" alt="Pay de Queso">
+                <p>Delicioso pay de queso con una base de galleta y un relleno suave.</p>
+            </div>
+
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Para pedidos y consultas, contáctanos a través de:</p>
+            <ul>
+                <li>Email: contacto@deliciasdulces.com</li>
+                <li>Teléfono: +34 123 456 789</li>
+                <li>Dirección: Calle de los Postres, 123, Tepeyanco, Tlaxcala</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Delicias Dulces. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
