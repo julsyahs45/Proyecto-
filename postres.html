@@ -70,6 +70,22 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Estilo del botón */
+a.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcccb;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+a.boton:hover {
+    background-color: #f08080;
+}
 </style>
 <body>
     <header>
@@ -83,15 +99,18 @@ footer {
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="home">
             <h2>Bienvenidos a Delicias Dulces</h2>
             <p>Disfruta de los mejores postres caseros hechos con amor.</p>
         </section>
+
         <section id="about">
             <h2>Sobre Nosotros</h2>
             <p>Somos un emprendimiento escolar dedicado a la elaboración de postres con ingredientes de la más alta calidad.</p>
         </section>
+
         <section id="products">
             <h2>Productos</h2>
             <div class="product">
@@ -104,8 +123,8 @@ footer {
                 <img src="pay de queso.jpg" alt="Pay de Queso">
                 <p>Delicioso pay de queso con una base de galleta y un relleno suave.</p>
             </div>
-
         </section>
+
         <section id="contact">
             <h2>Contacto</h2>
             <p>Para pedidos y consultas, contáctanos a través de:</p>
@@ -114,8 +133,11 @@ footer {
                 <li>Teléfono: +34 123 456 789</li>
                 <li>Dirección: Calle de los Postres, 123, Tepeyanco, Tlaxcala</li>
             </ul>
+            <!-- Botón para visitar la página externa -->
+            <a href="https://julsyahs45.github.io/proyecto-o/" target="_blank" class="boton">Visitar nuestra página</a>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 Delicias Dulces. Todos los derechos reservados.</p>
     </footer>
